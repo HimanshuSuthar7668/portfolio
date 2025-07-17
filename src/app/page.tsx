@@ -1,16 +1,16 @@
-import Hero from "@/components/Hero";
-import Skills from "@/components/Skills";
-import ContactForm from "@/components/ContactForm";
-import Footer from "@/components/Footer";
-import ProjectSection from "@/components/ProjectSection";
+import Hero from "@/components/sections/Hero";
+import Skills from "@/components/sections/Skills";
+import Contact from "@/components/sections/Contact";
+import Footer from "@/components/layout/Footer";
+import Project from "@/components/sections/Project";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <ProjectSection />
+      <Project />
       <Skills />
-      <ContactForm />
+      <Contact />
       <Footer />
     </main>
   );

@@ -2,12 +2,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { Icon } from "./icons/icon";
+import { Icon } from "../icons/icon";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="max-w-7xl mx-auto w-full flex items-center justify-center rounded-[30px] bg-[#eaf3ff] px-4 gap-20 py-20">
+    <section id="home">
+      <div className="max-w-7xl mx-auto w-full flex items-center justify-center rounded-[30px] bg-[#eaf3ff] mb-7 px-4 gap-20 py-20">
         {/* Left Content */}
         <div className="space-y-6 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-l from-[#89B7EF] to-[#004499]">
